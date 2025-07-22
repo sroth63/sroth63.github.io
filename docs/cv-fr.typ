@@ -7,7 +7,7 @@
     firstname: "Sascha",
     lastname: "Roth",
     email: "sascha.roth@telecom-paris.fr",
-    //homepage: "https://example.com",
+    homepage: "https://sroth63.github.io",
     //phone: "(+1) 111-111-1111",
     github: "sroth63",
     //scholar: "",
