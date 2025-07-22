@@ -102,5 +102,5 @@ Personal development training as part of my studies at Télécom Paris]
 )
 #resume-skill-item(
   "Tools",
-  ("Linux", "Git", "LaTeX"),
+  ("Linux", "Git", "LaTeX", "Typst"),
 )

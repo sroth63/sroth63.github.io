@@ -106,5 +106,5 @@
 )
 #resume-skill-item(
   "Outils",
-  ("Linux", "Git", "LaTeX"),
+  ("Linux", "Git", "LaTeX", "Typst"),
 )

@@ -16,21 +16,19 @@ h3 {
   font-style: italic;
 }
 
-/* Le wrapper pour le contenu avec de grandes marges */
 .wrapper {
   margin: 40px 200px 0 200px;
-  flex: 1; /* Permet au contenu de prendre l'espace disponible */
+  flex: 1;
 }
-/* Conteneur pour aligner les boutons */
+
 .header-buttons {
   position: absolute;
   top: 20px;
   left: 20px;
   display: flex;
-  gap: 10px; /* Espace entre les boutons */
+  gap: 10px;
 }
 
-/* Bouton Accueil */
 .home-button {
   background-color: #333;
   color: #fff;
@@ -42,46 +40,11 @@ h3 {
   transition: background 0.3s ease, transform 0.2s ease;
 }
 
-/* Effet au survol */
 .home-button:hover {
   background-color: #1e90ff;
   transform: scale(1.1);
 }
 
-/* Style du select pour ressembler au bouton */
-.lang-select {
-  background-color: #333;
-  color: #fff;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 10px 15px;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
-  appearance: none; /* Supprime le style par défaut */
-  text-align: center;
-}
-
-/* Effet au survol */
-.lang-select:hover {
-  background-color: #1e90ff;
-  transform: scale(1.1);
-}
-
-/* Personnalisation du curseur */
-.lang-select:focus {
-  outline: none;
-}
-
-/* Style des options du select */
-.lang-select option {
-  background: #333;
-  color: #fff;
-}
-
-
-/* Footer en pleine largeur */
 footer {
   width: 100%;
   background-color: #333;
@@ -90,13 +53,11 @@ footer {
   text-align: center;
 }
 
-/* Centrage et limitation du contenu interne du footer */
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* Styles des icônes des réseaux sociaux */
 .social-container {
   margin-bottom: 10px;
 }
@@ -117,3 +78,37 @@ footer {
   filter: brightness(0) invert(1);
 }
 
+
+@media (max-width: 768px) {
+  .wrapper {
+    margin: 20px 20px 0 20px;
+  }
+
+  .header-buttons {
+    position: relative;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 10px;
+  }
+
+  .home-button {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+
+  html, body {
+    font-size: 16px;
+  }
+
+  .footer-content {
+    padding: 0 10px;
+  }
+
+  .social-container img {
+    width: 28px;
+    height: 28px;
+  }
+}
