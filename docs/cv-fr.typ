@@ -13,7 +13,7 @@
     //scholar: "",
     //orcid: "0000-0000-0000-000X",
     //birth: "January 1, 1990",
-    linkedin: "sascha-roth-970b79146/",
+    linkedin: "roth-sascha/",
     //address: "111 Example St. Example City, EX 11111",
     positions: (
       "Étudiant en école d'ingénieurs",
