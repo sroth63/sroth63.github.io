@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Sascha Roth's website</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="fano.svg" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header-buttons">
+                <a data-i18n="home" href="index.html" class="home-button"
+                    >Home page</a
+                >
+            </div>
+            <h1 data-i18n="h1">Sascha Roth's website</h1>
+            <h3 data-i18n="who">Who am I?</h3>
+            <div data-i18n="whoans">
+                I'm an engineering student at Télécom Paris,
+                Institut Polytechnique de Paris. I'm mainly interested in the
+                intersection of mathematics and computer science, including
+                cryptography, optimization algorithms, logic and data science.
+                Here is my <a href="docs/cv-en.pdf">CV</a> (and a
+                <a href="docs/cv-fr.pdf">French version</a>).
+            </div>
+            <h2 data-i18n="math">Mathematics and computer science</h2>
+            <h3>Solutions</h3>
+            <ul>
+            <li><a href="math/lang.pdf">Solutions to some exercises in Lang's <em>Algebra.</em></a></li>
+            <li>🇫🇷 <a data-i18n="concours" href="math/concours/concours.html">Solutions of some competitive exams in math and computer science.</a></li>
+            
+            </ul>
+            <h3>(Attempts at) scientific mediation</h3>
+
+            <ul>
+                <li>🇫🇷 <a href="math/primes.pdf">Notes for a presentation on prime numbers I gave to middle school students.</a></li>
+                <li>🇫🇷 <a href="math/llm.html">Notes for a presentation on inference-time intervention in LLMs.</a></li>
+                <li>🇫🇷 An <a href="math/dobble.html">article on Dobble and projective geometry I wrote for the students' newsletter</a>, and <a href="math/versailles.html">another one on frieze groups</a>.</li>
+            </ul>
+
+            <h3>Programming</h3>
+            <ul>
+                <li> ↗️ <span data-i18n="linkspan">My accounts on </span><a href="https://cryptohack.org/user/Saschatouille/" target="_blank">CryptoHack</a> and <a href="https://www.mathraining.be/users/18974" target="_blank">Mathraining</a>.</li>
+                <li>↗️ <a href="https://github.com/sroth63/programming-problems/tree/main/project-euler" target="_blank">My solutions to the first 100 Project Euler problems.</a></li>
+                <li>↗️ <a href="https://github.com/sroth63/transfinite-nim" target="_blank">A Python implementation of the transfinite Nim game.</a></li>
+            </ul>
+            <h3>Personal notes</h3>
+            <ul>
+                <li>🇫🇷 <a data-i18n="algebra" href="math/algebra.pdf">Abstract algebra.</a></li>
+                <li>🇫🇷 <a data-i18n="topo" href="math/topo.pdf">Topology.</a></li>
+                <li>🇫🇷 <a data-i18n="muirhead" href="math/muirhead.pdf">Complete proof of Muirhead's inequality.</a></li>
+            </ul>
+            <h2 data-i18n="random">Miscellaneous</h2>
+            <ul>
+                <li>
+                    🇫🇷
+                    <a data-i18n="photos" href="random/photos/photos.html"
+                        >Outdoor pictures.</a
+                    >
+                </li>
+                <li>
+                    <a data-i18n="quotes" href="random/quotes.html"
+                        >My favorite quotes.</a
+                    >
+                </li>
+            </ul>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <div class="social-container">
+                    <a
+                        href="https://www.linkedin.com/in/sascha-roth-970b79146/"
+                        target="_blank"
+                        title="LinkedIn"
+                    >
+                        <img src="images/linkedin-icon.png" alt="LinkedIn" />
+                    </a>
+                    <a
+                        href="https://github.com/sroth63"
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        <img src="images/github-icon.png" alt="GitHub" />
+                    </a>
+                </div>
+                <p id="last-updated"></p>
+            </div>
+        </footer>
+        <script>
+            const lastUpdated = new Date(document.lastModified);
+            const formattedDate = lastUpdated.toISOString().split("T")[0];
+            document.getElementById("last-updated").textContent =
+                "Last updated: " + formattedDate;
+        </script>
+    </body>
+</html>

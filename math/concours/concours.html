@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sascha Roth's website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link id="stylesheet" rel="stylesheet" href="../../style.css">
+        <link rel="icon" type="image/x-icon" href="../../fano.svg">
+    </head>
+    <body>
+        <div class="wrapper">
+        <div class="header-buttons"><a href="../../index.html" class="home-button">Accueil</a></div>
+        <h1>Corrections de sujets Mines-Ponts</h1>
+
+        ⚠️ Les corrections peuvent contenir des erreurs....
+        <h2>Corrections</h2>
+        <table>
+            <tr>
+                <th>Année</th><th>Concours</th><th>Filière</th><th>Épreuve</th><th>Mots-clés</th><th>Liens</th>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>Mines-Ponts</td>
+                <td>MP/MPI</td>
+                <td>Mathématiques 1</td>
+                <td>Intégrale de Dirichlet généralisée, marche aléatoire</td>
+                <td><a href="m12024s.pdf">Sujet</a> <a href="m12024.pdf">Corrigé</a> <a href="rapp2024.pdf">Rapport</a></td>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>Mines-Ponts</td>
+                <td>MP/PC/PSI</td>
+                <td>Informatique commune</td>
+                <td>Compression de données, décodage, algorithme de Viterbi, programmation dynamique</td>
+                <td><a href="ic2024s.pdf">Sujet</a> <a href="ic2024.pdf">Corrigé</a> <a href="rapp2024.pdf">Rapport</a></td>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>Mines-Ponts</td>
+                <td>MP/PC/PSI</td>
+                <td>Informatique commune</td>
+                <td>Typographie, programmation dynamique</td>
+                <td><a href="ic2023s.pdf">Sujet</a> <a href="ic2023.pdf">Corrigé</a> <a href="rapp2023.pdf">Rapport</a></td>
+            </tr>
+            </tr>
+        </table>
+        </div>
+        <footer>
+            <div class="footer-content">
+              <div class="social-container">
+                <a href="https://www.linkedin.com/in/sascha-roth-970b79146/" target="_blank" title="LinkedIn">
+                    <img src="../../images/linkedin-icon.png" alt="LinkedIn">
+                  </a>
+                <a href="https://github.com/sroth63" target="_blank" title="GitHub">
+                    <img src="../../images/github-icon.png" alt="GitHub">
+                </a>
+              </div>
+              <p id="last-updated"></p>
+            </div>
+        </footer>
+    <script>
+        const lastUpdated = new Date(document.lastModified);
+        const formattedDate = lastUpdated.toISOString().split('T')[0];
+        document.getElementById("last-updated").textContent = "Last updated: " + formattedDate;
+    </script>
+    </body>
+</html>

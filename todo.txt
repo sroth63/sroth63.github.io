@@ -1,0 +1,4 @@
+TODO
+- change quotes style
+- translate photos ?
+- publier + ajouter des liens depuis linkedin, github, cv
