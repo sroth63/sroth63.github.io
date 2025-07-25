@@ -95,7 +95,7 @@ Personal development training as part of my studies at Télécom Paris]
 
 = Skills
 
-#resume-skill-item("Spoken languages", ("Frenche (native)", "English (fluent)", "German (advanced)"))
+#resume-skill-item("Languages", ("French (native)", "English (fluent)", "German (advanced)"))
 #resume-skill-item(
   "Programming",
   ("Python (SageMath, NumPy)", "OCaml", "C", "Java", "HTML", "CSS", "JavaScript", "SQL", "Rocq"),
