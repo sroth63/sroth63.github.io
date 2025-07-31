@@ -1,4 +1,6 @@
 #set text(lang:"fr")
+#let default-accent-color = rgb("#262F99")
+#show link: set text(default-accent-color)
 
 #import "@preview/modern-cv:0.8.0": *
 
@@ -77,17 +79,19 @@
 #resume-entry(
   title: "Stage de recherche en cryptographie",
   location: "Palaiseau",
-  date: "Août - Décembre 2025",
+  date: "Août 2025 - Janvier 2026",
   description: "Télécom Paris (Institut Polytechnique de Paris)"
 )
 
 #resume-item[
   Design et implémentation d'un protocole de signature à base de réseaux
+
+  Encadrant : Matthieu Rambaud
 ]
 
 #resume-entry(
   title: "Aide-gardien en refuge de montagne",
-  location: "Suisse",
+  location: "Saint-Martin, Suisse",
   date: "Juillet - Août 2024",
   description: "Cabane des becs de Bosson"
 )
@@ -96,6 +100,22 @@
   Stage de formation humaine réalisé dans le cadre de mon cursus à Télécom Paris
 ]
 
+
+= Projets personnels
+
+#resume-entry(
+  title: "CryptoHack",
+)
+
+#resume-item[
+Parmi les 700 meilleurs utilisateurs (parmi $>$ 100 k) sur la plateforme CryptoHack]
+
+#resume-entry(
+  title: "Page web personnelle",
+)
+
+#resume-item[
+Page web personnelle / portfolio : #link("https://sroth63.github.io")[sroth63.github.io]]
 
 = Compétences
 

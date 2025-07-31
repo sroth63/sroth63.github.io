@@ -1,5 +1,8 @@
 
 #import "@preview/modern-cv:0.8.0": *
+#let default-accent-color = rgb("#262F99")
+#show link: set text(default-accent-color)
+
 
 #show: resume.with(
   author: (
@@ -37,6 +40,7 @@
 )
 
 #resume-item[
+  - Leading French institution in computer science, equivalent to a master's degree
   - Majors in applied algebra and theoretical computer science
   - Minor in data science
   - Project: benchmarking cryptographic primitives for a zero-knowledge signature protocol
@@ -65,7 +69,7 @@
 
 #resume-item[
   - _Baccalauréat_: with honors (17.6 / 20)
-  - Specializations: mathematics, physics, chemistry and engineering
+  - Specializations: mathematics, physics and chemistry, engineering
   - European section
 ]
 
@@ -74,17 +78,19 @@
 #resume-entry(
   title: "Research internship in cryptography",
   location: "Palaiseau, France",
-  date: "August - December 2025",
+  date: "August 2025 - January 2026",
   description: "Télécom Paris (Institut Polytechnique de Paris)"
 )
 
 #resume-item[
   Design and implementation of a lattice-based signature protocol
+
+  Supervisor: Matthieu Rambaud
 ]
 
 #resume-entry(
   title: "Mountain refuge assistant",
-  location: "Switzerland",
+  location: "Saint-Martin, Switzerland",
   date: "July - August 2024",
   description: "Cabane des becs de Bosson"
 )
@@ -92,6 +98,21 @@
 #resume-item[
 Personal development training as part of my studies at Télécom Paris]
 
+= Personal projects
+
+#resume-entry(
+  title: "CryptoHack",
+)
+
+#resume-item[
+Among the top 700 players (among $>$ 100 k) on the platform CryptoHack]
+
+#resume-entry(
+  title: "Personal website",
+)
+
+#resume-item[
+Personal / portfolio website: #link("https://sroth63.github.io")[sroth63.github.io]]
 
 = Skills
 
