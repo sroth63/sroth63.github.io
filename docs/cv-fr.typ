@@ -79,7 +79,7 @@
 #resume-entry(
   title: "Stage de recherche en cryptographie",
   location: "Palaiseau",
-  date: "Août 2025 - Janvier 2026",
+  date: "Août - Décembre 2025",
   description: "Télécom Paris (Institut Polytechnique de Paris)"
 )
 

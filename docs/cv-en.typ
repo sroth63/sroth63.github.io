@@ -78,7 +78,7 @@
 #resume-entry(
   title: "Research internship in cryptography",
   location: "Palaiseau, France",
-  date: "August 2025 - January 2026",
+  date: "August - December 2025",
   description: "Télécom Paris (Institut Polytechnique de Paris)"
 )
 
