@@ -119,7 +119,7 @@ Personal / portfolio website: #link("https://sroth63.github.io")[sroth63.github.
 #resume-skill-item("Languages", ("French (native)", "English (fluent)", "German (advanced)"))
 #resume-skill-item(
   "Programming",
-  ("Python (SageMath, NumPy)", "OCaml", "C", "Java", "HTML", "CSS", "JavaScript", "SQL", "Rocq"),
+  ("Python (SageMath)", "C", "C++", "Java", "HTML", "CSS", "JavaScript", "SQL", "Rocq"),
 )
 #resume-skill-item(
   "Tools",
