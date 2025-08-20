@@ -101,11 +101,11 @@ Personal development training as part of my studies at Télécom Paris]
 = Personal projects
 
 #resume-entry(
-  title: "CryptoHack",
+  title: "Programming platforms",
 )
 
 #resume-item[
-Among the top 700 players (among $>$ 100 k) on the platform CryptoHack]
+Active user on various programming platforms (CryptoHack, Project Euler, CSES,...)]
 
 #resume-entry(
   title: "Personal website",

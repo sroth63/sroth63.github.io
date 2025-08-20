@@ -104,11 +104,11 @@
 = Projets personnels
 
 #resume-entry(
-  title: "CryptoHack",
+  title: "Sites web de programmation",
 )
 
 #resume-item[
-Parmi les 700 meilleurs utilisateurs (parmi $>$ 100 k) sur la plateforme CryptoHack]
+Utilisateur actif de diverses plateformes de programmation (CryptoHack, Project Euler, CSES,...)]
 
 #resume-entry(
   title: "Page web personnelle",
