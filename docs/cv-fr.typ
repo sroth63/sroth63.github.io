@@ -19,7 +19,7 @@
     //address: "111 Example St. Example City, EX 11111",
     positions: (
       "Étudiant en école d'ingénieurs",
-      "Spécialisé en cryptographie et informatique théorique",
+      "Spécialisé en informatique théorique et mathématiques appliquées",
     ),
   ),
   profile-picture: none,
@@ -29,23 +29,27 @@
   show-footer: true,
   paper-size: "a4",
 )
+\
+Étudiant passionné en mathématiques et informatique à Télécom Paris (*GPA 4.0/4.0*), avec une expérience pratique.
 
+Résolveur confirmé de problèmes avec *300+ défis algorithmiques résolus*, et une expertise en programmation sûre et efficace en Python et C++.
 
-= Formation
+Apporte rigueur de recherche et solides compétences de programmation pour *contribuer à la R&D*.
+
+= 🎓 Formation
 
 #resume-entry(
-  description: "Télécom Paris (Institut Polytechnique de Paris)",
+  description: "Télécom Paris, Institut Polytechnique de Paris",
   location: "Palaiseau",
   date: "Septembre 2023 - Août 2027",
   title: "École d'ingénieurs",
 )
 
 #resume-item[
-  - Filières ACCQ (algèbre, communications et calcul quantique) et MITRO (mathématiques, informatique théorique et recherche opérationnelle)
-  - Mineure en science des données
-  - Projet : benchmarks de primitives cryptographiques pour un protocole zero-knowledge
-  - GPA : 4 / 4
-  - Cours : fondements de l'informatique, logique et théorie de la preuve, vérification formelle, théorie de la complexité, algorithmique avancée, structures de données, algèbre générale, algorithmes pour l'algèbre, introduction à la géométrie algébrique, cryptographie, technologies quantiques, théorie de l'information, codes correcteurs d'erreurs, théorie des jeux, optimisation combinatoire et continue, théorie de la mesure et probabilités, statistiques, machine learning, bases de données,...
+  - Majeures : Algèbre appliquée & Informatique théorique | Mineure : Science des données | GPA: 4.0/4.0
+  - Projet de recherche : Benchmarks de primitives cryptographiques pour des protocoles de signature zero-knowledge. Contribution au site #link("https://zka.lc")[zka.lc].
+  - Projet d'ingénierie : Construction d'une petite voiture autonome avec une Raspberry Pi. Développement de systèmes de contrôle en Python et d'une interface web pour la commande à distance. Travail d'équipe avec utilisation de Git et Linux.
+  - Cours pertinents : Cryptographie, Théorie de la complexité, Algorithmique avancée, Vérification formelle, Technologies quantiques, Optimisation mathématique.
 ]
 
 #resume-entry(
@@ -56,38 +60,31 @@
 )
 
 #resume-item[
-  - Formation intensive en mathématiques, physique et informatique
-  - Option informatique
-  - TIPE : projet sur le paradoxe de Braess (théorie algorithmique des jeux)
+  - Formation intensive en mathématiques, informatique et physique-chimie.
+  - TIPE : projet de simulation du paradoxe de Braess. Modélisation du réseau routier d'une ville à l'aide d'outils de la théorie des graphes. Implémentation d'algorithmes en Python pour simuler et optimiser le trafic routier.
 ]
 
-#resume-entry(
-  description: "Lycée Godefroy de Bouillon",
-  location: "Clermont-Ferrand",
-  date: "Septembre 2018 - Juin 2021",
-  title: "Lycée général",
-)
-
-#resume-item[
-  - Baccalauréat mention très bien (17.6 / 20)
-  - Spécialités mathématiques, physique-chimie et sciences de l'ingénieur
-  - Section européenne
-]
-
-= Expériences professionnelles
+= 🔬 Expérience
 
 #resume-entry(
   title: "Stage de recherche en cryptographie",
   location: "Palaiseau",
   date: "Août - Décembre 2025",
-  description: "Télécom Paris (Institut Polytechnique de Paris)"
+  description: "Télécom Paris, Institut Polytechnique de Paris"
 )
 
 #resume-item[
-  Design et implémentation d'un protocole de signature à base de réseaux
-
-  Encadrant : Matthieu Rambaud
+  - Design et implémentation d'un protocole de signature post-quantique. Encadré par Matthieu Rambaud.
+  - Focus sur l'efficacité, la sécurité et le benchmarking.
 ]
+
+#resume-entry(
+  title: "Projets personnels de programmation",
+)
+
+#resume-item[
+- 300+ problèmes résolus sur CryptoHack, Project Euler, CSES — classé dans le top 0.7% sur CryptoHack.
+- Page web personnelle / portfolio: #link("https://sroth63.github.io")[sroth63.github.io]. Contient des solutions de problèmes et des notes techniques.]
 
 #resume-entry(
   title: "Aide-gardien en refuge de montagne",
@@ -97,27 +94,11 @@
 )
 
 #resume-item[
-  Stage de formation humaine réalisé dans le cadre de mon cursus à Télécom Paris
+  - Stage de formation humaine réalisé dans le cadre de mon cursus à Télécom Paris.
 ]
 
 
-= Projets personnels
-
-#resume-entry(
-  title: "Sites web de programmation",
-)
-
-#resume-item[
-Utilisateur actif de diverses plateformes de programmation (CryptoHack, Project Euler, CSES,...)]
-
-#resume-entry(
-  title: "Page web personnelle",
-)
-
-#resume-item[
-Page web personnelle / portfolio : #link("https://sroth63.github.io")[sroth63.github.io]]
-
-= Compétences
+= 🛠 Compétences
 
 #resume-skill-item("Langues", ("Français (natif)", "Anglais (C1)", "Allemand (B2)"))
 #resume-skill-item(
